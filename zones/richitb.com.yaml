@@ -1,0 +1,10 @@
+---
+em1081819:
+  type: CNAME
+  value: return.smtp2go.net.
+link:
+  type: CNAME
+  value: track.smtp2go.net.
+s1081819._domainkey:
+  type: CNAME
+  value: dkim.smtp2go.net.

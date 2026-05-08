@@ -1,0 +1,51 @@
+---
+coolify:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+      proxied: true
+  ttl: 300
+  type: A
+  value: 4.188.80.130
+em1081819.coolify:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  ttl: 300
+  type: CNAME
+  value: return.smtp2go.net.
+hydrowiki-kapish:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  ttl: 300
+  type: CNAME
+  value: ee1f308c9468d9a5.vercel-dns-017.com.
+link.coolify:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  ttl: 300
+  type: CNAME
+  value: track.smtp2go.net.
+s1081819._domainkey.coolify:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  ttl: 300
+  type: CNAME
+  value: dkim.smtp2go.net.
+ssh:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  ttl: 300
+  type: A
+  value: 4.188.80.130
+status:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  ttl: 300
+  type: A
+  value: 20.40.45.76

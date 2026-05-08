@@ -1,0 +1,35 @@
+---
+? ''
+: - octodns:
+      cloudflare:
+        auto-ttl: true
+        proxied: true
+    ttl: 300
+    type: A
+    value: 216.198.79.1
+  - type: TXT
+    value: google-site-verification=QPWiIh1Af4Mdgq-JtswdV56jl5g4lhqjuMm4R6qlg-s
+em1081819:
+  type: CNAME
+  value: return.smtp2go.net.
+link:
+  type: CNAME
+  value: track.smtp2go.net.
+s1081819._domainkey:
+  type: CNAME
+  value: dkim.smtp2go.net.
+ssh:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  ttl: 300
+  type: A
+  value: 20.193.248.66
+www:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: 9c40e6a69f78f33a.vercel-dns-017.com.

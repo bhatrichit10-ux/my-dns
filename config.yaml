@@ -1,0 +1,26 @@
+providers:
+  config:
+    class: octodns.provider.yaml.YamlProvider
+    directory: ./zones
+
+  cloudflare:
+    class: octodns_cloudflare.CloudflareProvider
+    token: env/CLOUDFLARE_TOKEN
+
+zones:
+  richit.me.:
+    sources:
+      - config
+    targets:
+      - cloudflare
+  
+  richitb.com.:
+    sources:
+      - config
+    targets:
+      - cloudflare 
+  debugcrew.tech.:
+    sources:
+      - config
+    targets:
+      - cloudflare
