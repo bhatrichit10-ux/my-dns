@@ -49,3 +49,10 @@ status:
   ttl: 300
   type: A
   value: 20.40.45.76
+wg:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  ttl: 300
+  type: A
+  value: 4.188.80.130  
