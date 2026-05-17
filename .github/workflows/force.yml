@@ -17,7 +17,7 @@ jobs:
         run: pip install octodns octodns-cloudflare
 
       - name: Plan (dry run)
-        run: octodns-sync --config-file=config.yaml
+        run: octodns-sync --config-file=config.yaml --force
         env:
           CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
 
