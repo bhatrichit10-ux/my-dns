@@ -13,12 +13,14 @@ zones:
       - config
     targets:
       - cloudflare
-  
+    safe_mode: false
+
   richitb.com.:
     sources:
       - config
     targets:
-      - cloudflare 
+      - cloudflare
+
   debugcrew.tech.:
     sources:
       - config
