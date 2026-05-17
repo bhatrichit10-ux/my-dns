@@ -1,12 +1,11 @@
 ---
-coolify:
+'*':
   octodns:
     cloudflare:
       auto-ttl: true
-      proxied: true
   ttl: 300
   type: A
-  value: 4.188.80.130
+  value: 20.40.44.13
 em1081819.coolify:
   octodns:
     cloudflare:
@@ -14,13 +13,6 @@ em1081819.coolify:
   ttl: 300
   type: CNAME
   value: return.smtp2go.net.
-grafana:
-  octodns:
-    cloudflare:
-      auto-ttl: true
-  ttl: 300
-  type: A
-  value: 4.188.80.130
 link.coolify:
   octodns:
     cloudflare:
@@ -35,17 +27,3 @@ s1081819._domainkey.coolify:
   ttl: 300
   type: CNAME
   value: dkim.smtp2go.net.
-ssh:
-  octodns:
-    cloudflare:
-      auto-ttl: true
-  ttl: 300
-  type: A
-  value: 4.188.80.130
-status:
-  octodns:
-    cloudflare:
-      auto-ttl: true
-  ttl: 300
-  type: A
-  value: 20.40.45.76
