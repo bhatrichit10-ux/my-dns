@@ -14,6 +14,9 @@ zones:
     targets:
       - cloudflare
     safe_mode: false
+    exclude:
+      - type: AAAA
+        name: richit.me.
 
   richitb.com.:
     sources:
