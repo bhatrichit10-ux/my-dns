@@ -27,3 +27,27 @@ s1081819._domainkey.coolify:
   ttl: 300
   type: CNAME
   value: dkim.smtp2go.net.
+<<<<<<< HEAD
+=======
+ssh:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  ttl: 300
+  type: A
+  value: 4.188.80.130
+status:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  ttl: 300
+  type: A
+  value: 20.40.45.76
+wg:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  ttl: 300
+  type: A
+  value: 4.188.80.130  
+>>>>>>> e927ecda2caa0a3ee3517a65956ae59c38399a51
