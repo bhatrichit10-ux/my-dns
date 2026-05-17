@@ -1,4 +1,12 @@
 ---
+'':
+  octodns:
+    cloudflare:
+      auto-ttl: true
+      proxied: true
+  ttl: 300
+  type: AAAA
+  value: '100::'
 '*':
   octodns:
     cloudflare:
@@ -6,14 +14,6 @@
   ttl: 300
   type: A
   value: 20.40.44.13
-'':
-  octodns:
-    cloudflare:
-      proxied: true
-      auto-ttl: true
-  ttl: 300
-  type: AAAA
-  value: '100::'
 'em1081819.coolify':
   octodns:
     cloudflare:
